@@ -1,0 +1,7 @@
+[[plugins]]
+repo   = 'Shougo/unite.vim'
+
+# python.vim を読み込んだら一緒に読み込む
+[[plugins]]
+repo = "davidhalter/jedi-vim"
+on_ft = ['python']
