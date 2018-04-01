@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 python << EOF
+=======
+python << EOF                                                                 
+>>>>>>> 62fcd9d011f884102f15c2722665be909f33a448
 import sys
 
 path1 = "/usr/lib/python3.6/site-packages"
