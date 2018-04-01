@@ -1,4 +1,3 @@
-
 "文字コード
 scriptencoding utf-8
 set encoding=utf-8            "読込時の文字コード
@@ -39,7 +38,6 @@ set runtimepath+=/home/manage/.vim/bundles/repos/github.com/Shougo/dein.vim
 let s:dein_path = expand('~/.vim/bundles')
 let s:dein_repo_path = s:dein_path . '/repos/github.com/Shougo/dein.vim'
 
-" Required:
 if dein#load_state(s:dein_path)
   call dein#begin(s:dein_path)
 
@@ -50,14 +48,9 @@ if dein#load_state(s:dein_path)
   call dein#load_toml(s:toml,       {'lazy': 0})
   call dein#load_toml(s:lazy_toml,  {'lazy': 1})
 
-  " Required:
   call dein#end()
   call dein#save_state()
 endif
-
-" Required:
-filetype plugin indent on
-syntax enable
 
 " If you want to install not installed plugins on startup.
 if dein#check_install()
